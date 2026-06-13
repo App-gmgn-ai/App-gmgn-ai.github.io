@@ -1,0 +1,189 @@
+{
+  "settings": {
+    "name": "App-gmgn-ai",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "startm5",
+      "title": "StartM5",
+      "titlePreset": "StartM5",
+      "styling": {
+        "primaryColor": "#9fe870",
+        "secondaryColor": "#ffd7ef",
+        "successColor": "#3a341c",
+        "infoColor": "#320707",
+        "warningColor": "#a0e2e1",
+        "dangerColor": "#ffea64",
+        "mainFont": "Inter Tight",
+        "display1Font": "Inter Tight",
+        "display1Size": 5,
+        "display2Font": "Inter Tight",
+        "display2Size": 4,
+        "display5Font": "Inter Tight",
+        "display5Size": 2,
+        "display7Font": "Inter Tight",
+        "display7Size": 1.4,
+        "display4Font": "Inter Tight",
+        "display4Size": 1.4,
+        "isRoundedImages": true,
+        "isRoundedButtons": true,
+        "isLargeButtons": true,
+        "isGhostButtonBorder": true,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "6.1.12",
+    "siteFonts": [],
+    "favicon": "@PROJECT_PATH@/assets/images/gmgn.ai-favicon.png",
+    "robotsSwitcher": true,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\nSitemap: https://App-gmgn-ai.github.io/sitemap.xml/",
+    "sitemapSwitcher": true,
+    "siteUrl": "https://App-gmgn-ai.github.io/",
+    "sitemapSwitcherAuto": "on",
+    "mbrsiteDomain": "iei1acxtdl",
+    "imageResize": false,
+    "usedWebp": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "uniqCompNum": 4,
+    "versionPublish": "6.1.12"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Gmgn AI - Web3 Gaming Platform | gmgnai",
+        "meta_descr": "GMGN.ai, the Popular Multi-Chain Crypto Trading Platform For Meme Coins, Wallet Tracking, Copy Trading, Token Discovery, and on-chain Analytics.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            }
+          },
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image & Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <a href=\"https://gmgn.ai/?chain=sol\"><img src=\"@PROJECT_PATH@/assets/images/gmgn.ai-1.png\" alt=\"gmgn.ai\"></a>\n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Unlock your true path!\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "vmpERaI5Yk",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image04-0"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            }
+          },
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image & Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <a href=\"https://gmgn.ai/?chain=sol\"><img src=\"@PROJECT_PATH@/assets/images/gmgn.ai-2.png\" alt=\"gmgn.ai\"></a>\n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Unlock your true path!\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "vmpERkbA2J",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image04-1"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            }
+          },
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image & Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <a href=\"https://gmgn.ai/?chain=sol\"><img src=\"@PROJECT_PATH@/assets/images/gmgn.ai-3.png\" alt=\"gmgn.ai\"></a>\n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Unlock your true path!\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "vmpERwJ8i1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image04-2"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".card-wrapper": {
+              "background": "@wrapBgColor",
+              "@media (max-width: 767px)": {
+                "padding": "2rem 1.5rem"
+              },
+              "@media (min-width: 768px) and (max-width: 991px)": {
+                "padding": "2.25rem"
+              },
+              "@media (min-width: 992px)": {
+                "padding": "4rem"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#000000",
+              "text-align": "left"
+            },
+            ".card-title, .card-box": {
+              "text-align": "left",
+              "color": "#000000"
+            }
+          },
+          "_name": "article07",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article07\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"range\" inline title=\"Content Width\" name=\"contentWidth\" min=\"8\" max=\"12\" step=\"1\" value=\"10\">\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n    <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n    <input type=\"color\" title=\"Wrap Bg\" name=\"wrapBgColor\" value=\"#ffffff\">\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n      <input type=\"color\" title=\"Color\" value=\"#edefeb\" selected>\n      <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n    </fieldset>\n    <header condition=\"bg.type === 'video'\">Fallback Image</header>\n    <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n  </mbr-parameters>\n\n  <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center\">\n      <div class=\"card col-md-12 col-lg-{{contentWidth}}\">\n        <div class=\"card-wrapper\">\n          <h3 class=\"card-title mbr-fonts-style mbr-white mt-3 mb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b><a href=\"https://gmgn.ai/?chain=sol\" class=\"text-primary\">Gmgn AI</a> - Web3 Gaming Platform | gmgnai</b></h3>\n          <div class=\"row card-box align-left\">\n            <div class=\"item features-without-image col-12\">\n              <div class=\"item-wrapper\">\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b><a href=\"https://gmgn.ai/?chain=sol\" class=\"text-primary\">GMGN.ai</a>: A Comprehensive Guide to the Popular Meme Coin Trading Platform</b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>Introduction :&gt;</b><br>As the cryptocurrency market continues to evolve, specialized trading platforms have emerged to help traders navigate highly volatile sectors such as meme coins and newly launched tokens. One platform that has gained significant attention among on-chain traders is <a href=\"https://gmgn.ai/?chain=sol\" class=\"text-primary\">GMGN.ai</a>, a multi-chain trading and analytics platform designed for discovering, analyzing, and trading meme tokens across several blockchain ecosystems.<br><br><a href=\"https://gmgn.ai/?chain=sol\" class=\"text-primary\">GMGN.ai</a> combines real-time market intelligence, wallet tracking, copy trading, security analysis, and automated trading tools into a single interface. Its focus on speed and data-driven decision-making has made it particularly popular among traders seeking early opportunities in rapidly moving crypto markets.<br><br><b>What Is GMGN.ai ?</b><br><a href=\"https://gmgn.ai/?chain=sol\" class=\"text-primary\">GMGN.ai </a>is an on-chain trading terminal that supports multiple blockchain networks, including Solana, Ethereum, Base, and BNB Smart Chain. The platform specializes in meme coin trading and provides traders with tools to identify emerging tokens, monitor market trends, analyze wallet activity, and execute trades efficiently.<br><br>Unlike traditional cryptocurrency exchanges, <a href=\"https://gmgn.ai/?chain=sol\" class=\"text-primary\">GMGN.ai</a> focuses heavily on on-chain data. Users can analyze token holders, track influential wallets, monitor new token launches, and evaluate project security before making investment decisions.<br><br><b>Key Features //<br>1. Real-Time Token Discovery :/</b><br>One of GMGN.ai's primary attractions is its ability to monitor newly launched tokens across popular launchpads and decentralized exchanges. Traders can filter projects by market capitalization, trading volume, liquidity, and creation time to identify opportunities at an early stage.<br><b>2. Smart Money Tracking :/<br></b>The platform allows users to monitor wallets that have demonstrated strong trading performance. By analyzing wallet behavior, users can observe what experienced traders are buying and selling in real time. This feature is particularly valuable in meme coin markets, where early entry often determines profitability.<br><b>3. Copy Trading :/<br></b><a href=\"https://gmgn.ai/?chain=sol\" class=\"text-primary\">GMGN.ai</a> offers copy-trading functionality that enables users to automatically replicate the trades of selected wallets. This feature is intended to help less experienced traders follow successful market participants without manually executing every transaction.<br><b>4. Security Analysis :/</b><br>The platform automatically evaluates tokens for potential risks, including liquidity status, honeypot behavior, contract ownership, and minting permissions. These checks are designed to help users avoid common scams and malicious token contracts.<br><b>5. Wallet Analytics :/<br></b><a href=\"https://gmgn.ai/?chain=sol\" class=\"text-primary\">GMGN.ai </a>provides detailed wallet performance metrics, including profit and loss calculations, win rates, historical trades, and portfolio holdings. Users can enter any public wallet address to review its trading history and performance statistics.<br><b>6. Advanced Trading Tools :/<br></b>The platform includes automated trading features such as stop-loss orders, take-profit targets, trailing stops, and batch trading capabilities. These tools help traders manage risk in highly volatile markets.<br><br><b>Advantages of GMGN.ai<br>Fast Access to New Opportunities //</b><br>The platform's real-time monitoring tools help traders identify newly launched projects before they gain widespread attention. This can be particularly valuable in the meme coin sector, where prices often move rapidly.<br><br><b>Comprehensive Analytics //</b><br><a href=\"https://gmgn.ai/?chain=sol\" class=\"text-primary\">GMGN.ai</a> combines multiple data sources into a single dashboard, reducing the need to switch between different blockchain explorers, analytics platforms, and trading tools.<br><b>Multi-Chain Support //<br></b>By supporting several major blockchain ecosystems, the platform allows users to discover opportunities beyond a single network.<br><b>Automated Risk Management //<br></b>Built-in trading automation and security checks provide additional layers of protection for traders operating in high-risk markets.<br><b>Potential Risks and Criticisms //</b><br>Despite its popularity, <a href=\"https://gmgn.ai/?chain=sol\" class=\"text-primary\">GMGN.ai</a> has received mixed feedback from users.<br>Some traders praise the platform's analytics, wallet tracking capabilities, and copy-trading tools. Community discussions often highlight its extensive feature set compared with simpler trading bots and charting platforms.<br><br>However, some users have reported concerns regarding transaction fees, copy-trading performance, wallet security issues, and occasional inaccuracies in automated risk classifications. Several community discussions and reviews describe negative experiences involving failed copy trades, unexpected costs, or disagreements with the platform's token safety assessments.<br><br>As with any cryptocurrency platform, users should conduct independent research, understand the risks involved, and avoid relying solely on automated tools when making investment decisions.<br><br><b>Who Should Use GMGN.ai?</b><br><a href=\"https://gmgn.ai/?chain=sol\" class=\"text-primary\">GMGN.ai</a> is best suited for:<br><b>1.&nbsp;</b> Active meme coin traders&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>2.</b> On-chain analysts<br><b>3.</b> Users interested in wallet tracking and smart money monitoring<br><b>4.</b> Traders seeking copy-trading functionality<br><b>5.</b> Investors looking for real-time token discovery tools<br><b>//</b> The platform may be less suitable for long-term investors who primarily focus on established cryptocurrencies and traditional investment strategies.<br><br><b>Conclusion ://</b><br><a href=\"https://gmgn.ai/?chain=sol\" class=\"text-primary\">GMGN.ai</a> has established itself as one of the most feature-rich platforms in the meme coin and on-chain trading ecosystem. Its combination of token discovery, wallet analytics, security monitoring, and automated trading tools provides traders with a powerful toolkit for navigating fast-moving crypto markets.<br><br>While the platform offers valuable capabilities, users should recognize that no analytics tool can eliminate the risks associated with cryptocurrency trading. Successful use of <a href=\"https://gmgn.ai/?chain=sol\" class=\"text-primary\">GMGN.ai</a> requires critical thinking, independent research, and sound risk management practices.<br><br>For traders who understand the speculative nature of meme coins and on-chain markets, GMGN.ai can serve as a powerful platform for discovering opportunities and analyzing market activity in real time.</p>\n              </div>\n            </div>\n            \n            \n            \n          </div>\n          <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Start Now</a>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>",
+          "_cid": "vmpESlOSHM",
+          "_anchor": "article07-3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
